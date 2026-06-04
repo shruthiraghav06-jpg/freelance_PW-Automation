@@ -2,7 +2,7 @@ import {test,expect} from '@fixtures/freelance_loginFixture';
 import { homePage } from '@pages/freelance_homePage';
 import enrollmentData from '@testdata/enrollmentData.json'
 
-test.only('Login as valid user',async({flLoggedInPage})=>{    
+test('Login as valid user',async({flLoggedInPage})=>{    
     const homepage = new homePage(flLoggedInPage);
 
     await expect(flLoggedInPage).toHaveTitle(/Learn/);
