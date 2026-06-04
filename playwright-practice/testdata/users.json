@@ -1,0 +1,9 @@
+{
+  "commonPassword": {
+    "password": "Password@123"
+  },
+  "validUser": {
+    "email": "test497@gmail.com",
+    "password": "Password@123"
+  }
+}
